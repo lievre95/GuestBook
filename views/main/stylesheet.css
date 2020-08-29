@@ -1,0 +1,98 @@
+body {
+
+}
+.main_div{
+	align-content:center;
+	display: flex;
+	width:100% ;
+	height: 100% ;
+
+	background-color: #e5e5e5;
+	text-decoration: none;
+	opacity: 0.8;
+
+
+}
+.div_header{
+	font-family: 'Fira Mono', monospace;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 25px;
+	width:100%;
+	border: none;
+	background: #0a2b1d;
+
+	/*opacity: 0.5;*/
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 5pt;
+
+}
+.font_custom{
+	font-size: medium;
+	color: #000000;
+	text-decoration: none;
+	opacity: 1;
+}
+.posts{
+height: 5rem;
+	width:50%;
+	background: #f8f8f8;
+	/*opacity: 0.3;*/
+	color: #000000;
+	/*margin-right:20px !important;*/
+	/*margin-left:20px !important;*/
+}
+
+.custom_container{
+	/*padding-right:15px !important;*/
+	/*padding-left:15px  !important;*/
+
+	margin-right: 0.1pt !important;
+	margin-left:0.1pt !important;
+	height: auto;
+}
+.add_name{
+	margin-bottom: 20pt;
+	font-size: 16pt;
+	color: #4b3124;
+	background: rgba(209, 228, 213, 0.47);
+	display: -ms-flex;
+
+}
+.add_message_f{
+	 margin-bottom: 20pt;
+	 color: rgb(26, 105, 0);
+	 background: rgba(20, 153, 0, 0.29);
+	 display: -ms-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+ }
+
+.add_bar{
+	color: #000000;
+	background: rgba(39, 160, 0, 0.61);
+	display:  inline-flex;
+	alignment: center;
+	align-self: center;
+}
+
+table{
+	border-spacing:0.1rem;
+	justify-content: flex-start;
+	background-color:#f8f8f8;
+}
+.add_note{
+	resize: none;
+	font-size:14pt;
+	display: block;
+	justify-content: center;
+	text-align: left;
+	background: #2a2a2a;
+width:100%
+}
